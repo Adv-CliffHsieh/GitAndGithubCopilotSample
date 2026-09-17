@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>待辦清單 - Git 教學用</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>📝 我的待辦清單</h1>
+
+    <form id="todo-form">
+      <input type="text" id="todo-input" placeholder="輸入待辦事項..." autocomplete="off">
+      <button type="submit">新增</button>
+    </form>
+
+    <!-- Lab 2b: 篩選按鈕在此新增（feature/filter） -->
+    <div class="filters" id="filters"></div>
+
+    <ul id="todo-list"></ul>
+
+    <!-- Lab 3: 狀態列同時被 filter 與 counter 分支修改，用來製造合併衝突 -->
+    <p id="status-bar">共 0 筆待辦</p>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

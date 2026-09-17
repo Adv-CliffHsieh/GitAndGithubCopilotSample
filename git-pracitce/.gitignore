@@ -1,0 +1,10 @@
+# 作業系統檔案
+.DS_Store
+
+# 編輯器設定
+.vscode/
+
+# Lab 5 練習用：個人筆記與機密設定不應提交
+notes.local.txt
+.env
+.env.*
