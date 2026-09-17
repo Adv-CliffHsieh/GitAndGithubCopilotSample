@@ -1,0 +1,18 @@
+{
+  "servers": {
+    "sqlite": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "mcp-server-sqlite-npx", "${workspaceFolder}/data/todos.db"]
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "stitch": {
+      "type": "http",
+      "url": "https://stitch.withgoogle.com/mcp"
+    }
+  }
+}

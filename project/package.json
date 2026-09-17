@@ -1,0 +1,19 @@
+{
+  "name": "copilot-todo-workshop",
+  "version": "1.0.0",
+  "description": "GitHub Copilot 教學 Workshop — Todo App（Skills / Sub Agent / Hooks / MCP）",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.0",
+    "vitest": "^3.2.0"
+  }
+}
